@@ -91,7 +91,7 @@ importers:
         specifier: ^2.13.0
         version: 2.13.1
       sharp:
-        specifier: ^0.33.4
+        specifier: ^0.33.0
         version: 0.33.4
       svelte:
         specifier: ^4.2.19
@@ -122,8 +122,16 @@ importers:
         specifier: ^1.1.24
         version: 1.2.1
       '@iconify-json/material-symbols':
+<<<<<<< HEAD
         specifier: ^1.1.89
         version: 1.2.5
+=======
+        specifier: ^1.1.85
+        version: 1.1.85
+      '@iconify-json/skill-icons':
+        specifier: ^1.1.10
+        version: 1.1.10
+>>>>>>> d089802 (update config.ts)
       '@iconify/svelte':
         specifier: ^4.0.2
         version: 4.0.2(svelte@4.2.19)
@@ -1025,6 +1033,9 @@ packages:
 
   '@iconify-json/material-symbols@1.2.5':
     resolution: {integrity: sha512-CXG4noUsqBrbr0npZVldxlf8XGUW3LF3VEGvgk/2k+A3GQt/DM/04PsbjkO2wOI/ORP8rcaHz2pw8F2TPL+CKA==}
+
+  '@iconify-json/skill-icons@1.1.10':
+    resolution: {integrity: sha512-zAs3zb3wwH3uExbFadBdxidx7keXO5Wuk4tqsCJuo/3qWjJlqabxzfzcCE+L6bkItORzN1QxmHUC9MU42xGAcQ==}
 
   '@iconify/svelte@4.0.2':
     resolution: {integrity: sha512-6BSrU85FzGfhQD3bTXpnkCCvBAglEt8T9QednVnXAYm4C+d3464y+pYMzhQNJm5mPId2cuiw+2wXlDflXllHDw==}
@@ -5814,7 +5825,11 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify/svelte@4.0.2(svelte@4.2.19)':
+  '@iconify-json/skill-icons@1.1.10':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify/svelte@4.0.2(svelte@4.2.18)':
     dependencies:
       '@iconify/types': 2.0.0
       svelte: 4.2.19
