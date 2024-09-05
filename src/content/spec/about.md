@@ -1,7 +1,7 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+This is Jayyue's personal blog.
 
-::github{repo="saicaca/fuwari"}
+::github{repo="Jayyyu1w/jayyue-portfolio"}
 
 > ### Sources of images used in this site
 > - [Unsplash](https://unsplash.com/)
