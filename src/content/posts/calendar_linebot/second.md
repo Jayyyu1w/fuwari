@@ -144,3 +144,6 @@ def callback():
 ![webhookURL](webhook.png)
 接下來點擊 verify，如果跳出200 OK的話就是沒有問題，可以開始傳送訊息到聊天室了。
 ![webhookverify](webhook_verify.png)
+
+最後附上github連結，可以參考看看，之後會考慮使用NER做看看
+::github{repo="Jayyyu1w/Calendar-Linebot"}
