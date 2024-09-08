@@ -65,7 +65,7 @@ This is a note with a custom title.
 
 ```markdown
 :::note[MY CUSTOM TITLE]
-This is a note with some custom title.
+This is a note with a custom title.
 :::
 ```
 
